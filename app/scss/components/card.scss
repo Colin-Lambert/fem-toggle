@@ -42,7 +42,12 @@
             top: 0;
             width: 100%;
             height: rem(5);
-            background: var(--instagram-start);
+            background: linear-gradient(225deg,
+                    var(--instagram-end),
+                    var(--instagram-middle) 50.91%,
+                    var(--instagram-start) 100%);
+
+            //var(--instagram-start);
 
         }
 
