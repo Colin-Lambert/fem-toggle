@@ -41,16 +41,14 @@
     </div>
 
     <fieldset class="header__toggle toggle" aria-label="theme toggle" role="radiogroup">
+      <label for="dark">Dark Mode <span class="visually-hidden">On</span></label>
       <div class="toggle__wrapper">
         <input type="radio" name="theme" id="dark" />
-        <input type="radio" name="theme" id="system" checked />
         <input type="radio" name="theme" id="light" />
         <span aria-hidden="true" class="toggle__background"></span>
         <span aria-hidden="true" class="toggle__button"></span>
       </div>
-      <label for="dark">Dark</label>
-      <label for="system">System</label>
-      <label for="light">Light</label>
+      <label for="light" class="visually-hidden">Dark Mode Off</label>
     </fieldset>
 
   </header>
@@ -104,6 +102,7 @@
           <div class="card__label">Followers</div>
         </div>
         <div class="card__change card__change--up">
+          <img src="/images/icon-up.svg" alt="up arrow" />
           <div class="card__number">1099 Today</div>
         </div>
       </div>
