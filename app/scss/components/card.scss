@@ -76,6 +76,7 @@
     &__subtitle {
         font-size: rem(14);
         font-weight: 700;
+        color: var(--text-color2);
     }
 
     &__icon {
@@ -93,6 +94,7 @@
     &__username {
         font-size: rem(12);
         font-weight: 700;
+        color: var(--text-color2);
     }
 
     &__followers {
@@ -100,7 +102,7 @@
     }
 
     &__count {
-        color: var(--dark-text2);
+        color: var(--text-color);
         font-weight: 700;
         letter-spacing: rem(-2);
         line-height: 1;
@@ -121,7 +123,7 @@
         font-size: rem(12);
         letter-spacing: rem(5);
         font-weight: normal;
-        color: var(--dark-text1);
+        color: var(--text-color2);
         text-transform: uppercase;
 
     }
